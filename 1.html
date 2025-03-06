@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Центрированная кнопка</title>
+    <style>
+	
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Занимает всю высоту экрана */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('1.gif'); /* Подставьте свой фон */
+            background-size: contain;
+			background-position: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        button {
+            font-size: 28px; /* Увеличивает размер текста */
+            padding: 80px 100px; /* Увеличивает размер кнопки */
+            border: none;
+            border-radius: 10px;
+            background-color: #ff69b4; /* Зеленый фон */
+            color: white; /* Белый текст */
+            cursor: pointer; /* Указатель при наведении */
+        }
+        
+        button:hover {
+            background-color: #3e8e41; /* Изменяет цвет при наведении */
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='сайт.html';">Начинаем?)</button>
+</body>
+</html>
